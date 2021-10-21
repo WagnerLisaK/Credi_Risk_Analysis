@@ -3,10 +3,11 @@
 ## Overview
 This project was to analyze different models on predicting high risk credit applications.  Because credit risk is inherently unbalanced, there are many ways to handle this issue when predicting credit risk.  I analyzed the data using 6 different methodologies as shown below.
 
-All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%)
+All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%).
 
 ## Results
-1. Naive Random Oversampling
+**1. Naive Random Oversampling**
+
      * Balanced Accuracy Score = 0.65 (overall accuracy)
      * Precision = 0.01  (accuracy of positive predictions)
      * Sensitivity/Recall = 0.69  (% of positive cases identified correctly)
@@ -16,7 +17,8 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%)
 
      ![NaiveRandOverSamp.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/NaiveRandOverSamp.png)
 
-2. SMOTE Oversampling
+**2. SMOTE Oversampling**
+
      * Balanced Accuracy Score = 0.66
      * Precision = 0.01
      * Sensitivity/Recall = 0.63
@@ -26,7 +28,8 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%)
 
      ![SMOTE.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/SMOTE.png)
 
-3. ClusterCentroids Undersampling
+**3. ClusterCentroids Undersampling**
+
      * Balanced Accuracy Score = 0.54
      * Precision = 0.01
      * Sensitivity/Recall = 0.69
@@ -36,7 +39,8 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%)
 
      ![ClusterCentroidsUnderSamp.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroidsUnderSamp.png)
 
-4. Combination Sampling
+**4. Combination Sampling**
+
      * Balanced Accuracy Score = 0.68
      * Precision = 0.01
      * Sensitivity/Recall = 0.78
@@ -46,7 +50,8 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%)
 
      ![CombinationSamp.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/CombinationSamp.png)
 
-5. Balanced Random Forest Classifier
+**5. Balanced Random Forest Classifier**
+
      * Balanced Accuracy Score = 0.79
      * Precision = 0.03
      * Sensitivity/Recall = 0.70
@@ -56,7 +61,8 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%)
 
      ![BalRanForClass.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/BalRanForClass.png)
 
-6. Easy Ensemble AdaBoost Classifier
+**6. Easy Ensemble AdaBoost Classifier**
+
      * Balanced Accuracy Score = 0.93
      * Precision = 0.09
      * Sensitivity/Recall = 0.92 
@@ -81,7 +87,7 @@ I would recommend one or more of the following moving forward:
 3. Specify the weight of each feature instead of letting the model do that;
 4. Instead of predicting high risk applications, predict low risk applications instead, and re-run the models to see what impact that has on the predictions.
 
-Submitted by Lisa K Wagner / 10 Oct 2021
+Submitted by Lisa K Wagner / 21 Oct 2021
 
 
 
