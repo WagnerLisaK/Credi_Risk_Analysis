@@ -3,10 +3,12 @@
 ## Overview
 This project was to analyze different models on predicting high risk credit applications.  Because credit risk is inherently unbalanced, there are many ways to handle this issue when predicting credit risk.  I analyzed the data using 6 different methodologies as shown below.
 
+All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%)
+
 ## Results
 1. Naive Random Oversampling
-     * Balanced Accuracy Score = 0.65
-     * Precision = 0.01  (% accuracy of positive predictions)
+     * Balanced Accuracy Score = 0.65 (overall accuracy)
+     * Precision = 0.01  (accuracy of positive predictions)
      * Sensitivity/Recall = 0.69  (% of positive cases identified correctly)
      * F1 Score = 0.02  (% of correct positive predictions)
 
