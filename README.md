@@ -13,9 +13,9 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%).
      * Sensitivity/Recall = 0.69  (% of positive cases identified correctly)
      * F1 Score = 0.02  (% of correct positive predictions)
 
-     ** Decent overall accuracy score; low accuracy of identifying high risk loans.
-
-     ![NaiveRandOverSamp.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/NaiveRandOverSamp.png)
+     ** Decent overall accuracy score; low accuracy of identifying high risk loans.**
+     
+![NaiveRandOverSamp.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/NaiveRandOverSamp.png)
 
 **2. SMOTE Oversampling**
 
@@ -24,9 +24,9 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%).
      * Sensitivity/Recall = 0.63
      * F1 Score = 0.02
 
-     ** Decent overall accuracy score; low accuracy of identifying high risk loans.
+     ** Decent overall accuracy score; low accuracy of identifying high risk loans.**
 
-     ![SMOTE.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/SMOTE.png)
+![SMOTE.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/SMOTE.png)
 
 **3. ClusterCentroids Undersampling**
 
@@ -35,9 +35,9 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%).
      * Sensitivity/Recall = 0.69
      * F1 Score = 0.01
 
-     ** Mediocre overall accuracy score; low accuracy of identifying high risk loans.
+     ** Mediocre overall accuracy score; low accuracy of identifying high risk loans.**
 
-     ![ClusterCentroidsUnderSamp.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroidsUnderSamp.png)
+![ClusterCentroidsUnderSamp.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroidsUnderSamp.png)
 
 **4. Combination Sampling**
 
@@ -46,9 +46,9 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%).
      * Sensitivity/Recall = 0.78
      * F1 Score = 0.02
 
-     ** Decent accuracy score; low accuracy of identifying high risk loans.
+     ** Decent accuracy score; low accuracy of identifying high risk loans.**
 
-     ![CombinationSamp.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/CombinationSamp.png)
+![CombinationSamp.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/CombinationSamp.png)
 
 **5. Balanced Random Forest Classifier**
 
@@ -57,9 +57,9 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%).
      * Sensitivity/Recall = 0.70
      * F1 Score = 0.06
 
-     ** Good accuracy score; but still low accuracy of identifying high risk loans.
+     ** Good accuracy score; but still low accuracy of identifying high risk loans.**
 
-     ![BalRanForClass.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/BalRanForClass.png)
+![BalRanForClass.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/BalRanForClass.png)
 
 **6. Easy Ensemble AdaBoost Classifier**
 
@@ -68,9 +68,9 @@ All numbers are a percentage (ex. 0.65 = 65%, ; 0.02 = 2%).
      * Sensitivity/Recall = 0.92 
      * F1 Score = 0.16
 
-     ** Great overall accuracy score; but still low accuracy of identifying high risk loans.
+     ** Great overall accuracy score; but still low accuracy of identifying high risk loans.**
 
-     ![EasyEnsAdaBoostClass.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/EasyEnsAdaBoostClass.png)
+![EasyEnsAdaBoostClass.png](https://github.com/WagnerLisaK/Credit_Risk_Analysis/blob/main/Resources/EasyEnsAdaBoostClass.png)
 
 
 ## Summary
