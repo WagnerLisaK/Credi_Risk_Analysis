@@ -79,7 +79,7 @@ Using over-, under-, and combination-sampling produced the least favorable accur
 
 The classifiers performed better, but neither had a high level of accuracy when predicting high credit risk.
 
-The best at predicting high credit risk was teh Easy Ensemble AdaBoost Classifier.  The overall accuracy score was 0.93, but the F1 score was still low at 0.16.
+The best at predicting high credit risk was the Easy Ensemble AdaBoost Classifier.  The overall accuracy score was 0.93, but the F1 score was still low at 0.16.
 
 I would recommend one or more of the following moving forward:
 1. Gathering more data to increase the size of the dataset;
